@@ -8,6 +8,7 @@ end = int(input('enter the end value'))
 # table(num)
 
 
+# 
 print([num*i for i in range(1, end+1)])
 
 

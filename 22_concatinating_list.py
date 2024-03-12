@@ -1,4 +1,5 @@
-l1 = ['p', 'q']
+l1 = ['
+      ]
 n = int(input('enter a number'))
 
 # SEQUENCE 

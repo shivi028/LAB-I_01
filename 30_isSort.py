@@ -1,7 +1,7 @@
 l1 = []
 count = False
 while(True):
-    a = int(input('enter to value to enter in list'))
+    a = int(input('enter the value to enter in list'))
     if a < 0:
         break
     else:

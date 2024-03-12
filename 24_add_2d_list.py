@@ -12,6 +12,8 @@ l3 = [[0,0,0],[0,0,0],[0,0,0]]
 #         l3[i][j] = l1[i][j] + l2[i][j]
 # print(f'the sum of 2 matrix is :', l3)
 
+
+
 # QUESTION 25  MULTIPLICATION
 for i in range(len(l1[0])):
     for j in range(len(l2[0])):
