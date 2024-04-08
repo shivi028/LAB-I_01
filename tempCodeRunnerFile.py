@@ -1,12 +1,7 @@
-a = int(input('enter the value\n'))
-j = 0
-for i in range(1, a+1):
-    for space in range(1, (a-i)+1):
-        print(end=' ')
+dic1 = {1:10, 2:20}
+dic2 = {3:30, 4:40}
+dic3 = {5:50, 6:60}
+def Merge3(d1, d2, d3):
+    return d1 | d2 | d3
 
-    while j!=(2*i-1):
-        print('* ', end='')
-        j += 1
-    
-    j = 0
-    print()
+print(Merge3(dic1, dic2, dic3))
